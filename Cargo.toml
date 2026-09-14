@@ -1,0 +1,8 @@
+[package]
+name = "histtop"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Rank shell history commands by how often you actually run them"
+
+[dependencies]
