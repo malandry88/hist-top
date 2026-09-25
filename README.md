@@ -46,5 +46,6 @@ cargo build --release
 
 ## Status
 
-Early. Multi-line commands joined with a trailing `\` aren't reassembled
-yet, and there's no way to exclude commands by pattern. Working, but small.
+Early. Commands split across lines with a trailing `\` are reassembled
+into a single entry, but there's no way to exclude commands by pattern yet.
+Working, but small.
